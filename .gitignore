@@ -1,0 +1,18 @@
+# Never commit data or results derived from Elliptic2 / Elliptic++
+*.csv
+*.parquet
+*.zip
+*.npz
+*.pkl
+*.pt
+results*/
+data/
+EllipticPP/
+Elliptic++ Dataset/
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.ipynb_checkpoints/
